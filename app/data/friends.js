@@ -1,0 +1,171 @@
+// ===============================================================================
+// DATA
+// Below data will hold all of the reserved tables.
+// Initially we just set it equal to a "dummy" customer.
+// But you could have it be an empty array as well.
+// ===============================================================================
+var friends = [
+  {
+      "name":"Leo",
+      "photo":"https://pbs.twimg.com/profile_images/856920601575006208/z_ljB_g3_400x400.jpg",
+      "scores":[
+         1,
+         1,
+         1,
+         1,
+         1,
+         1,
+         2,
+         1,
+         1,
+         1
+          ]
+      },
+  {
+  "name":"Cristiano",
+  "photo":"https://pbs.twimg.com/profile_images/913794143322804225/-yBKQ-3r_400x400.jpg",
+  "scores":[
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+      ]
+},
+{
+  "name":"Sergio",
+  "photo":"https://pbs.twimg.com/profile_images/909424255456116736/LwXocjWA_400x400.jpg",
+  "scores":[
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+      ]
+},
+{
+  "name":"Benjamin",
+  "photo":"https://pbs.twimg.com/profile_images/906541720233537541/xX4euCxV_400x400.jpg",
+  "scores":[
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4
+      ]
+},
+{
+  "name":"Kevin",
+  "photo":"https://pbs.twimg.com/profile_images/777231641198653440/sHf5seUw_400x400.jpg",
+  "scores":[
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5
+      ]
+},
+{
+  "name":"Vincent",
+  "photo":"https://pbs.twimg.com/profile_images/905501073359634440/WrQGZ5Xa_400x400.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     3,
+     4,
+     4,
+     5,
+     5
+      ]
+},
+{
+  "name":"David",
+  "photo":"https://pbs.twimg.com/profile_images/589043743543656448/6IJyXj1o_400x400.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     2,
+     3,
+     4,
+     5
+      ]
+},
+{
+  "name":"Alexis",
+  "photo":"https://pbs.twimg.com/profile_images/744724318467264512/OaJWadj2_400x400.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     3,
+     2,
+     1,
+     4,
+     5
+      ]
+},
+{
+  "name":"Neymar",
+  "photo":"https://pbs.twimg.com/profile_images/907721243138424832/cLPYPDvd_400x400.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     4,
+     4,
+     4,
+     4,
+     3
+      ]
+},
+{
+  "name":"James",
+  "photo":"https://pbs.twimg.com/profile_images/901002025508405248/fhIYat-y_400x400.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     3,
+     2,
+     2,
+     1,
+     2
+      ]
+}
+]
+
+// Export the array.
+module.exports = friends;
